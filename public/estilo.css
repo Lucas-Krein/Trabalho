@@ -1,0 +1,99 @@
+.formulario{
+    background-color: rgb(216, 48, 48);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    border: 3px solid gold;
+}
+.central{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 15rem; 
+    height: 1000x;
+    margin-left: 830px;
+    margin-top: 85px;
+}
+.fundo{
+        font: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #000;
+        text-decoration: none;
+        background: rgb(216, 48, 48);
+        text-align: center;
+        margin-right: -5px;
+        margin-left: -5px;
+        margin-top: 0px;
+        border: 3px solid gold;
+        height: 95px
+}
+.cabecalho{
+    font: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    text-decoration: none;
+    background: rgb(216, 48, 48);
+    text-align: center;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    border: 3px solid gold;
+}
+.cabecalhome{
+    font: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    text-decoration: none;
+    background: rgb(216, 48, 48);
+    text-align: center;
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-top: 0px;
+    height: 100px;
+    border: 3px solid gold;
+}
+.fundome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    border: 3px solid gold;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.baixoleta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    border: 3px solid gold;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.maisbaixo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(7, 7, 7);
+    border: 3px solid gold;
+    margin-right: -5px;
+    margin-left: -5px;
+    height: 850px;
+}
+.cabecalista{
+    font: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    text-decoration: none;
+    background: rgb(216, 48, 48);
+    text-align: center;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    border: 3px solid gold;
+    height: 100px;
+}
+.completolista{
+    font: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.maislista{
+    font: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black; 
+}

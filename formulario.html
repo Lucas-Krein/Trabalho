@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <div class="central">
+    <link rel="stylesheet" type="text/css" href="/estilo.css">
+    <h2><form class ="formulario" action="/adicionar" method="POST" style=color:black align="center">
+        <h1>Cadastro de produtos</h1>
+
+        <label for="descricao"><b>Descrição do Produto: </b></label>
+        <input type="text" id="descricao" name="descricao" required><br>
+        <br>
+        <label for="quant_estoque"><b>Quantidade em Estoque: </b></label>
+        <input type="text" id="quant_estoque" name="quant_estoque" required><br>
+        <br>
+        <label for="valor"><b>Valor do Produto: </b></label>
+        <input type="text" id="valor" name="valor" required><br>
+        <br>
+        <label for="peso"><b>Peso do Produto: </b></label>
+        <input type="text" id="peso" name="peso" required><br>
+        <br>
+        <label for="medida"><b>Medida (1-Unidade), (2-Metro): </b></label>
+        <input type="text" id="medida" name="medida" required><br>
+        <br>
+        <label for="localizacao_corredor"><b>Localização do Produto (corredor): </b></label>
+        <input type="text" id="localizacao_corredor" name="localizacao_corredor" required><br>
+        <br>
+        <label for="localizacao_pratelei"><b>Localização do Produto (prateleira): </b></label>
+        <input type="text" id="localizacao_pratelei" name="localizacao_pratelei" required><br>
+
+        <input type="submit" value="Cadastrar">
+
+        <style>
+            body{  
+                    background-color:black;
+                }
+       </style>
+       
+    </form></h2>
+</div> 
+<div class="cabecalho">
+<h2><p>
+        <a href="http://localhost:8081"> Home</a href>
+        <a href="http://localhost:8081/listar"> Lista</a href>   
+    </p></h2>
+</div>
+</body>
+</html>
